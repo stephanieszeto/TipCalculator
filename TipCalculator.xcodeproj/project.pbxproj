@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		905C577518B55C36008DFF91 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905C577318B55C36008DFF91 /* SettingsViewController.m */; };
+		905C577618B55C36008DFF91 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905C577418B55C36008DFF91 /* SettingsViewController.xib */; };
 		90989B2C18B48DFF00F5D284 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90989B2B18B48DFF00F5D284 /* Foundation.framework */; };
 		90989B2E18B48DFF00F5D284 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90989B2D18B48DFF00F5D284 /* CoreGraphics.framework */; };
 		90989B3018B48DFF00F5D284 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90989B2F18B48DFF00F5D284 /* UIKit.framework */; };
@@ -19,6 +21,8 @@
 		90989B4718B48DFF00F5D284 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90989B2F18B48DFF00F5D284 /* UIKit.framework */; };
 		90989B4F18B48DFF00F5D284 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90989B4D18B48DFF00F5D284 /* InfoPlist.strings */; };
 		90989B5118B48DFF00F5D284 /* TipCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90989B5018B48DFF00F5D284 /* TipCalculatorTests.m */; };
+		90989B5D18B4916700F5D284 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90989B5B18B4916700F5D284 /* TipViewController.m */; };
+		90989B5E18B4916700F5D284 /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90989B5C18B4916700F5D284 /* TipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		905C577218B55C36008DFF91 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
+		905C577318B55C36008DFF91 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
+		905C577418B55C36008DFF91 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = ../SettingsViewController.xib; sourceTree = "<group>"; };
 		90989B2818B48DFF00F5D284 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90989B2B18B48DFF00F5D284 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		90989B2D18B48DFF00F5D284 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +55,9 @@
 		90989B4C18B48DFF00F5D284 /* TipCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TipCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		90989B4E18B48DFF00F5D284 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90989B5018B48DFF00F5D284 /* TipCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalculatorTests.m; sourceTree = "<group>"; };
+		90989B5A18B4916700F5D284 /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TipViewController.h; path = ../TipViewController.h; sourceTree = "<group>"; };
+		90989B5B18B4916700F5D284 /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TipViewController.m; path = ../TipViewController.m; sourceTree = "<group>"; };
+		90989B5C18B4916700F5D284 /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TipViewController.xib; path = ../TipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,12 @@
 		90989B3118B48DFF00F5D284 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				90989B5A18B4916700F5D284 /* TipViewController.h */,
+				905C577218B55C36008DFF91 /* SettingsViewController.h */,
+				905C577318B55C36008DFF91 /* SettingsViewController.m */,
+				905C577418B55C36008DFF91 /* SettingsViewController.xib */,
+				90989B5B18B4916700F5D284 /* TipViewController.m */,
+				90989B5C18B4916700F5D284 /* TipViewController.xib */,
 				90989B3A18B48DFF00F5D284 /* AppDelegate.h */,
 				90989B3B18B48DFF00F5D284 /* AppDelegate.m */,
 				90989B3D18B48DFF00F5D284 /* Images.xcassets */,
@@ -219,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90989B5E18B4916700F5D284 /* TipViewController.xib in Resources */,
 				90989B3618B48DFF00F5D284 /* InfoPlist.strings in Resources */,
 				90989B3E18B48DFF00F5D284 /* Images.xcassets in Resources */,
+				905C577618B55C36008DFF91 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				90989B3C18B48DFF00F5D284 /* AppDelegate.m in Sources */,
+				90989B5D18B4916700F5D284 /* TipViewController.m in Sources */,
 				90989B3818B48DFF00F5D284 /* main.m in Sources */,
+				905C577518B55C36008DFF91 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +382,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TipCalculator/TipCalculator-Prefix.pch";
 				INFOPLIST_FILE = "TipCalculator/TipCalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TipCalculator/TipCalculator-Prefix.pch";
 				INFOPLIST_FILE = "TipCalculator/TipCalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -441,6 +463,7 @@
 				90989B5618B48DFF00F5D284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90989B5718B48DFF00F5D284 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +472,7 @@
 				90989B5918B48DFF00F5D284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
